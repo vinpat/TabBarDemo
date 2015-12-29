@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		03A501641C32974D0041D307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501631C32974D0041D307 /* main.m */; };
 		03A501671C32974D0041D307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501661C32974D0041D307 /* AppDelegate.m */; };
-		03A5016A1C32974D0041D307 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501691C32974D0041D307 /* FirstViewController.m */; };
-		03A5016D1C32974D0041D307 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5016C1C32974D0041D307 /* SecondViewController.m */; };
+		03A5016A1C32974D0041D307 /* TBDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501691C32974D0041D307 /* TBDFirstViewController.m */; };
+		03A5016D1C32974D0041D307 /* TBDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5016C1C32974D0041D307 /* TBDSecondViewController.m */; };
 		03A501701C32974D0041D307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A5016E1C32974D0041D307 /* Main.storyboard */; };
 		03A501721C32974D0041D307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A501711C32974D0041D307 /* Assets.xcassets */; };
 		03A501751C32974D0041D307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A501731C32974D0041D307 /* LaunchScreen.storyboard */; };
 		03A501801C32974D0041D307 /* TabbarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5017F1C32974D0041D307 /* TabbarDemoTests.m */; };
 		03A5018B1C32974D0041D307 /* TabbarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5018A1C32974D0041D307 /* TabbarDemoUITests.m */; };
+		03A5019A1C329F0E0041D307 /* TBDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501991C329F0E0041D307 /* TBDTabBarViewController.m */; };
+		03A5019D1C32A28F0041D307 /* UITabBarItem+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5019C1C32A28F0041D307 /* UITabBarItem+Helper.m */; };
+		03A501A01C32ADA70041D307 /* TBDThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5019F1C32ADA70041D307 /* TBDThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +43,10 @@
 		03A501631C32974D0041D307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03A501651C32974D0041D307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03A501661C32974D0041D307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03A501681C32974D0041D307 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		03A501691C32974D0041D307 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		03A5016B1C32974D0041D307 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		03A5016C1C32974D0041D307 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		03A501681C32974D0041D307 /* TBDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBDFirstViewController.h; sourceTree = "<group>"; };
+		03A501691C32974D0041D307 /* TBDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBDFirstViewController.m; sourceTree = "<group>"; };
+		03A5016B1C32974D0041D307 /* TBDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBDSecondViewController.h; sourceTree = "<group>"; };
+		03A5016C1C32974D0041D307 /* TBDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBDSecondViewController.m; sourceTree = "<group>"; };
 		03A5016F1C32974D0041D307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03A501711C32974D0041D307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03A501741C32974D0041D307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,12 @@
 		03A501861C32974D0041D307 /* TabbarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A5018A1C32974D0041D307 /* TabbarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarDemoUITests.m; sourceTree = "<group>"; };
 		03A5018C1C32974D0041D307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A501981C329F0E0041D307 /* TBDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDTabBarViewController.h; sourceTree = "<group>"; };
+		03A501991C329F0E0041D307 /* TBDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDTabBarViewController.m; sourceTree = "<group>"; };
+		03A5019B1C32A28F0041D307 /* UITabBarItem+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Helper.h"; sourceTree = "<group>"; };
+		03A5019C1C32A28F0041D307 /* UITabBarItem+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Helper.m"; sourceTree = "<group>"; };
+		03A5019E1C32ADA70041D307 /* TBDThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDThirdViewController.h; sourceTree = "<group>"; };
+		03A5019F1C32ADA70041D307 /* TBDThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +115,16 @@
 			children = (
 				03A501651C32974D0041D307 /* AppDelegate.h */,
 				03A501661C32974D0041D307 /* AppDelegate.m */,
-				03A501681C32974D0041D307 /* FirstViewController.h */,
-				03A501691C32974D0041D307 /* FirstViewController.m */,
-				03A5016B1C32974D0041D307 /* SecondViewController.h */,
-				03A5016C1C32974D0041D307 /* SecondViewController.m */,
+				03A501681C32974D0041D307 /* TBDFirstViewController.h */,
+				03A501691C32974D0041D307 /* TBDFirstViewController.m */,
+				03A5016B1C32974D0041D307 /* TBDSecondViewController.h */,
+				03A5016C1C32974D0041D307 /* TBDSecondViewController.m */,
+				03A5019E1C32ADA70041D307 /* TBDThirdViewController.h */,
+				03A5019F1C32ADA70041D307 /* TBDThirdViewController.m */,
+				03A501981C329F0E0041D307 /* TBDTabBarViewController.h */,
+				03A501991C329F0E0041D307 /* TBDTabBarViewController.m */,
+				03A5019B1C32A28F0041D307 /* UITabBarItem+Helper.h */,
+				03A5019C1C32A28F0041D307 /* UITabBarItem+Helper.m */,
 				03A5016E1C32974D0041D307 /* Main.storyboard */,
 				03A501711C32974D0041D307 /* Assets.xcassets */,
 				03A501731C32974D0041D307 /* LaunchScreen.storyboard */,
@@ -207,8 +222,9 @@
 		03A501571C32974C0041D307 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TBD;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "LeftShift Technologies";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					03A5015E1C32974C0041D307 = {
 						CreatedOnToolsVersion = 7.2;
@@ -275,10 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A5016D1C32974D0041D307 /* SecondViewController.m in Sources */,
+				03A5019D1C32A28F0041D307 /* UITabBarItem+Helper.m in Sources */,
+				03A501A01C32ADA70041D307 /* TBDThirdViewController.m in Sources */,
+				03A5016D1C32974D0041D307 /* TBDSecondViewController.m in Sources */,
 				03A501671C32974D0041D307 /* AppDelegate.m in Sources */,
-				03A5016A1C32974D0041D307 /* FirstViewController.m in Sources */,
+				03A5016A1C32974D0041D307 /* TBDFirstViewController.m in Sources */,
 				03A501641C32974D0041D307 /* main.m in Sources */,
+				03A5019A1C329F0E0041D307 /* TBDTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -406,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -418,8 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TabbarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.leftshift.TabbarDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = io.demo.TabbarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -429,8 +449,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TabbarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.leftshift.TabbarDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = io.demo.TabbarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
